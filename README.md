@@ -2,7 +2,7 @@
 ### An easy way to allow creating SVG display objects using the `display` library
 
 ## What does it do?
-This little module will patch Solar2D's built-in `display` library to allow the creation of display objects from SVG files using the same syntax as you would for JPG or PNG files. Specifically, it modifies the `display.newImage` and `display.newImageRect` methods..
+This little module will patch Solar2D's built-in `display` library to allow the creation of display objects from SVG files using the same syntax as you would for JPG or PNG files. Specifically, it modifies the `display.newImage` and `display.newImageRect` methods.
 
 ## Why?
 I was working on an app that used SVG files alongside PNGs, and I was tired of having to write different code depending on the file type being used. I also have years of muscle-memory that prejudices me towards the old `display.newImage` syntax. This module made it easy to swap in SVG images for PNG (or vice-versa) without needing to change code. I figured others might find it useful, so I'm putting it here.
